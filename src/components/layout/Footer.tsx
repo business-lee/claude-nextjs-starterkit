@@ -14,7 +14,7 @@ export const Footer: React.FC<FooterProps> = ({ className }) => {
     return (
         <footer className={`mt-auto ${className || ''}`}>
             <Separator className="mb-6" />
-            <div className="w-full max-w-[1400px] mx-auto px-6 py-6">
+            <div className="w-full max-w-350 mx-auto px-6 py-6">
                 <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
                     <div className="text-center text-sm text-muted-foreground md:text-left">
                         <p>© {currentYear} Frontend Starter Kit. All rights reserved.</p>
