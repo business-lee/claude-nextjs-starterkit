@@ -5,5 +5,9 @@
       "Bash",
       "WebFetch"
     ]
-  }
+  },
+  "enabledMcpjsonServers": [
+    "playwright"
+  ],
+  "enableAllProjectMcpServers": true
 }
