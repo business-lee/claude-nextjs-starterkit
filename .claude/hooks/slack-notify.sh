@@ -15,6 +15,11 @@ fi
 
 WEBHOOK_URL="${SLACK_WEBHOOK_URL}"
 
+# 알림 활성화 여부 확인 (기본값: 활성화)
+if [ "${SLACK_NOTIFICATIONS_ENABLED:-true}" = "false" ]; then
+    exit 0
+fi
+
 # Webhook URL이 없으면 조용히 종료
 if [ -z "$WEBHOOK_URL" ]; then
     exit 0
