@@ -3,11 +3,14 @@
     "allow": [
       "WebSearch",
       "Bash",
-      "WebFetch"
+      "WebFetch",
+      "mcp__playwright__*",
+      "mcp__sequential-thinking__*"
     ]
   },
   "enabledMcpjsonServers": [
-    "playwright"
+    "playwright",
+    "sequential-thinking"
   ],
   "enableAllProjectMcpServers": true,
   "hooks": {
